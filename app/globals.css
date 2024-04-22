@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+.dark {
+  color: #fff ;
+  background-color: rgb(31 41 55 / 1);
+}
+
+.ant-table-content {
+  color:  rgb(31 41 55 / 1);
+}
+
+.dark .ant-table-content {
+  color: #fff;
+  background-color: rgb(31 41 55 / 1) ;
+}
+
+.dark .ant-table-row:hover {
+  color: rgb(31 41 55 / 1) ;
+}
